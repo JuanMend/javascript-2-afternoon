@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me = {
+  name: "Carlos",
+  age: 20,
+}
+me.name;
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: "Beetles",
+  food: "pizza",
+  person: "Carlos",
+  book: "Cats",
+  movie: "Aquaman",
+  holiday: "Christmas"
+};
 
 
 /*
@@ -35,7 +46,8 @@
 
 //Code here
 
-
+favoriteThings.car = "Lambo";
+favoriteThings.brand = "lambo";
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -43,7 +55,8 @@
 
 //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -56,16 +69,18 @@
 */
 
 //Code here
+let backPack = {};
+let item = "firstPocket";
 
-
+backPack[item] = "chapstick"
+backPack.color = "red";
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
-
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +90,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -98,7 +113,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
